@@ -4,7 +4,7 @@
 This is a personal portfolio website showcasing introuduction about myself, projects and form having name,phone,email and message with form validation using javascript. The website is built using HTML, CSS, Javascript.
 
 ## Features
-Responsive design
+Responsive design <br>
 smooth scrolling
 form with validation
 Dynamic Date and Time display
