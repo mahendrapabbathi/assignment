@@ -134,3 +134,12 @@ function validateForm() {
 
     return true; 
 }
+
+function updateDateTime() {
+    let now = new Date();
+    let formattedDate = now.toLocaleString(); 
+    document.getElementById("currentDateTime").textContent = formattedDate;
+}
+
+setInterval(updateDateTime, 1000);
+updateDateTime(); 

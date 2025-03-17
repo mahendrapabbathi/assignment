@@ -208,7 +208,6 @@ header {
     display: block;
     width: 80%;
     margin: 0 auto;
-    /* height: 100vh; */
     font-family: "Outfit", sans-serif;
     margin-bottom: 15%;
 }
@@ -226,7 +225,6 @@ header {
 .project {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -480,12 +478,3 @@ footer {
     }
 }
 
-@media (max-width:375px) {
-    /* header {
-        padding-top: 40px;
-    }
-    .container{
-        height: 80vh;
-    } */
-    
-}
