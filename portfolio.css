@@ -117,6 +117,9 @@ header {
 .left h1 {
     font-size: max(2rem, 20px);
 }
+.right img{
+    padding-top: 15px;
+}
 
 .want {
     font-size: 1rem;
