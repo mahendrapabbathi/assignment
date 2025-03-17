@@ -15,3 +15,5 @@ CSS  for styling
 Javascript for dynamic and interactivity
 Used Google Fonts and Font Awesome for typography and font icons
 
+## How to Run 
+Make sure how have visual studio code and any browser(eg:Chrome) 
