@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <header>
+        <div class="header">
+            <p><span>P</span>ortfolio</p>
+            <div class="navbar">
+                <ul class="menu-icon">
+                    <li class="list"><a href="#hero">Home</a></li>
+                    <li class="list"><a href="#projects">Projects</a></li>
+                    <li class="list"><a href="#form">Contact</a></li>
+                </ul>
+                <div class="bar">
+                    <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="close">
+                        <h3>X</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero section -->
+
+    <section id="hero" class="hero">
+        <div class="left">
+            <h1>Hi! I am Pabbathi Mahendra</h1>
+            <h2>Persuing B.Tech 3<sup>rd</sup> year in RGUKT, ONGOLE</h2>
+            <h3>I am from Kadapa</h3>
+            <h2 class="want">Looking for Internship and Job as Frontend Developer and <br>MERN Stack Developer</h2>
+            <div class="info">
+                <p>Email:</p>
+                <p>pabbathimahendra8@gmail.com</p>
+            </div>
+            <p class="number">+916281552049</p>
+            <div class="buttons">
+                <button><a href="./images/Resume.pdf" download="Mahendra_Resume.pdf">Resume</a></button>
+                <button>Hire me now</button>
+            </div>
+            <div class="links">
+                <a href="https://github.com/mahendrapabbathi?tab=repositories" target="_blank"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mahendra-pabbathi-1a88a431a/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./images/profile1.png" alt="">
+        </div>
+
+    </section>
+    <hr>
+
+    <!-- project section -->
+
+    <section id="projects" class="projects">
+        <h1 class="title">Projects</h1>
+        <div class="project-card">
+            <div class="project">
+                <h1>Tic-Tac-Toe</h1>
+                <p>A Tic Tac Toe game is the classic two-player game.Players click on empty cells to place their symbol.The game alternates turns and checks for a winner or draw after each move.Once the game ends, a message displays the result, and players can reset the board to play again.</p>
+                <button><a href="https://iridescent-kringle-13a327.netlify.app/" target="_blank">Live Demo</button></a>
+            </div>
+            <div class="project">
+                <h1>CountDown Timer</h1>
+                <p>A countdown timer counts down from a specified time to zero.The user sets the countdown duration.The timer starts counting down, updating the display every second.When the timer reaches zero, it stops and performs a predefined action.</p>
+                <button><a href="https://visionary-brioche-f0341c.netlify.app/" target="_blank">Live Demo</button></a>
+            </div>
+            <div class="project">
+                <h1>Simple Quiz</h1>
+                <p>A simple quiz allows users to answer multiple-choice questions and receive feedback on their performance.The quiz displays one question at a time with multiple-choice options.The user selects an answer and clicks "Submit" or "Next.The application checks if the answer is correct and updates the score.After all questions are answered, the final score is displayed.</p>
+                <button><a href="https://dynamic-seahorse-6fee5d.netlify.app/" target="_blank">Live Demo</button></a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+<!-- Form validation -->
+    
+<div id="form" class="container">
+    <form onsubmit="return validateForm()">
+        <div class="input-group">
+            <label for="name">Full Name:</label>
+            <input type="text" placeholder="Enter your full name" id="name" onkeyup="validName()">
+            <span id="name-error"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="phone">Phone No:</label>
+            <input type="tel" placeholder="123 456 7890" id="phone" onkeyup="validPhoneNo()">
+            <span id="phone-error"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email Id:</label>
+            <input type="email" placeholder="Enter your email" id="email" onkeyup="validEmail()">
+            <span id="email-error"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" placeholder="Enter your message" onkeyup="validMessage()"></textarea>
+            <span id="message-error"></span>
+        </div>
+
+        <button type="submit">Submit</button>
+        <span id="submit-error"></span>
+    </form>
+</div>
+
+<hr>
+
+<!-- footer section -->
+
+<footer>
+    <p>Copyright © 2025 Sorting Genisis Technologies Pvt Ltd. All Rights Reserved.</p>
+</footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
